@@ -1,0 +1,195 @@
+footer {
+    background: #1f1f1f;
+    height: 159px;
+    display: grid;
+    grid-template-columns: 242px 15.5px 15.5px 662px 506px;
+}
+
+.logo-footer {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: right;
+    align-self: center;
+}
+
+.detail_info {
+    grid-column: 4/5;
+    display: grid;
+    grid-template-rows: 50px 33px 22px 22px 32px
+}
+
+.name {
+    grid-row: 1/2;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: 0.29px;
+    text-align: left;
+    color: #1488db;
+    align-self: end;
+}
+
+.address {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 15px 10px auto;
+}
+
+.address-info {
+    grid-column: 3/4;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #cccccc;
+    align-self: end;
+}
+
+.ic-address {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-indent: -9999999px;
+    background-image: url(../img/pin.svg);
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact_num {
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 15px 10px auto;
+}
+
+.ic-phone {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-indent: -9999999px;
+    background-image: url(../img/icphone.svg);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact-num-1 {
+    grid-column: 3/4;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #cccccc;
+    align-self: center;
+}
+
+.mail {
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: 15px 10px auto;
+}
+
+.mail-info {
+    grid-column: 3/4;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #cccccc;
+    align-self: center;
+}
+
+.ic-mail {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-indent: -9999999px;
+    background-image: url(../img/icmail.svg);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line1 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: #737373;
+    width: 1px;
+    height: 78px;
+    opacity: 0.35;
+    align-self: center;
+}
+
+.reference {
+    grid-column: 5/6;
+    display: grid;
+    grid-template-rows: 33px 28px 22px 22px auto;
+}
+
+.follow_us {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 76px 15px 28px 10px 28px auto;
+}
+
+.follow_us_1 {
+    grid-column: 1/2;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1488db;
+    align-self: center;
+}
+
+.signature {
+    grid-row: 3/4;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #cccccc;
+    align-self: end;
+}
+
+.copyright {
+    grid-row: 4/5;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #cccccc;
+    align-self: end;
+}
+
+.icfb {
+    grid-column: 3/4;
+}
+
+.icYoutube {
+    grid-column: 5/6;
+}
